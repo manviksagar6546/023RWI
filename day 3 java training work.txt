@@ -1,0 +1,76 @@
+1.feature of java :-
+
+• Simple and Easy to Learn.
+
+• Object-Oriented Programming.
+
+• Platform Independence.
+
+• Automatic Memory Management.
+
+• Security.
+
+• Rich API.
+
+• Multithreading.
+
+• High Performance.
+
+2.Internal working of java :-
+
+• When you run program it will compile first.
+
+• Javac compile code and convert it in to Hello. Class
+
+• Now that .class file is a Byte code and you can run that .class file on any computer system.
+
+• With the help of Byte code Java is a platform independent language.
+
+• Java has both compiler and interpreter.
+
+After compiler compile code and generated .class file(Byte code) then interpreter interpret that Byte code and run it
+
+3. JDK/JRE/JVM :-
+
+• JVM
+JVM is used to convert Bytecode into machine code(0 and 1).
+JVM contain Interpreter/JIT(just-in-time) to convert Bytecode into microprocessor to specific machine language instruction(machine code).
+Instruction set vary from microprocessor to microprocessor, there exist different JVMs for different platform . Thus, JVM can run any Java program.
+JVM themselves are not portable(machine independent).
+=> JVM is distributed along with a set of standard class libraries that  implement the Java application program interface(API).
+
+• JRE
+Java JVM and API form Java runtime environment(JRE).                  
+                    API+JVM=JRE
+=> If your need is only to execute Java program on your machine.
+Ex- if you want to execute Java based game on your machine all you need only JRE. 
+But if you wish to also develop program on your machine, you need JDK.
+
+• JDK
+JDK contain tools that needed to develop the java program. as well as JRE to run the program.
+Tools include compiler(Javac.exe), Java application launcher(Java.exe).
+Compiler convert Java code into bytecode Java application launcher open JRE, load the class and call its main() method.
+debugger : Needed to detect, analyse and eliminate bugs in the program.
+
+4. Difference between bytecode and machine code in java :-
+
+            Byte code                                machine code
+     1. Intermediate code                         low level binary code
+
+     2. platform independent                      platform dependent
+
+     3. probability high                          probability low
+
+5.Why java is secure language
+
+•Java programs run inside a virtual machine which is known as a sandbox.
+
+•Java does not support explicit pointer.
+
+•Byte-code verifier checks the code fragments for illegal code that can violate access right to object.
+
+•It provides java.security package implements explicit security.
+
+•It provides library level safety.
+
+•Run-time security check takes place when we load new code
